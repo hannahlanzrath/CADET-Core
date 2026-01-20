@@ -640,7 +640,7 @@ namespace cadet
 		IDASetSensErrCon(_idaMemBlock, _sensErrorTestEnabled);
 
 		// Set Maximum of Sens Non lin Iters
-		IDASetSensMaxNonlinIters(_idaMemBlock, _maxNewtonIterSens);
+		//IDASetSensMaxNonlinIters(_idaMemBlock, _maxNewtonIterSens);
 	}
 
 	void Simulator::initializeFwdSensitivities()
